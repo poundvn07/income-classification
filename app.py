@@ -12,6 +12,8 @@ st.set_page_config(page_title="Income Predictor", page_icon="💵", layout="wide
 # Load CSS
 with open("styles/style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+    
+from modules.texts import TEXT
 
 # Load & preprocess dataset
 df_raw = load_raw_data()
