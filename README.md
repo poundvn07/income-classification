@@ -12,13 +12,13 @@ This app uses machine learning models, Logistic Regression and K-Nearest Neighbo
 
 ## Installation and Running
 1. Clone the repository:
-git clone https://github.com/poundvn07/income-classification.git
-cd income-classification
+- git clone https://github.com/poundvn07/income-classification.git
+- cd income-classification
 
 2. (Optional) Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate      # Windows
+- python -m venv venv
+- source venv/bin/activate   # Linux/macOS
+- venv\Scripts\activate      # Windows
 
 3. Install required packages:
 pip install -r requirements.txt
@@ -38,3 +38,4 @@ adult.csv: The dataset used for training and analysis (should be placed in the s
 
 #Author
 Pound
+
