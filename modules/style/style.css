@@ -1,0 +1,120 @@
+
+st.markdown("""
+<style>
+.block-container { padding-top: 2rem; }
+.stButton>button {
+    width: 100%; 
+    border-radius: 8px; 
+    height: 3em; 
+    font-weight: 600;
+    background: linear-gradient(135deg, #4A90E2, #357ABD);
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px 0;
+}
+.stButton>button:hover {
+    background: linear-gradient(135deg, #5AA0FF, #3A7CE0);
+    color: white;
+}
+
+.metric-container {
+    background: #E8EBF0;
+    padding: 18px 20px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+    border-left: 4px solid #4A90E2;
+}
+.metric-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+}
+.metric-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2b2b2b;
+    margin: 0;
+}
+.metric-diff {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -2px;
+    display: inline-block;
+}
+.metric-diff.positive { color: #2ecc71; }
+.metric-diff.negative { color: #e74c3c; }
+.progress-container {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+progress {
+    accent-color: #4A90E2;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 8px;
+}
+.percentile-text {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.cat-card {
+    background: #E8EBF0;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: 0.2s;
+    border: 1px solid #e6ecf5;
+}
+.cat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+.cat-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+.cat-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-top: 5px;
+}
+.cat-share {
+    font-size: 12px;
+    color: #777;
+    margin-top: 4px;
+}
+
+.input-card {
+    background: #F3F4F6;
+    padding: 25px 25px 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+    margin-bottom: 20px;
+}
+.field-label {
+    font-weight: 600;
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.edu-label {
+    margin-top: -8px;
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+.stSlider label, .stSelectbox label, .stNumberInput label {
+    font-weight: 600 !important;
+}
+</style>
+""", unsafe_allow_html=True)
