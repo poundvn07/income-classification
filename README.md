@@ -26,16 +26,17 @@ pip install -r requirements.txt
 4. Run the streamlit app:
 streamlit run app.py
 
-##Data File
+## Data File
 adult.csv: The dataset used for training and analysis (should be placed in the same folder as app.py).
 
-##Technologies Used
+## Technologies Used
 - Python
 - Streamlit
 - scikit-learn (Logistic Regression, KNN, SMOTE)
 - Plotly (visualization)
 - pandas, numpy
 
-#Author
+## Author
 Pound
+
 
